@@ -1,0 +1,105 @@
+2023-07-17 11:55:55,440 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Configure stats pid to 1119618
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-17 11:55:55,441 INFO    MainThread:1119618 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230717_115555-y33rj5t6/logs/debug.log
+2023-07-17 11:55:55,442 INFO    MainThread:1119618 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230717_115555-y33rj5t6/logs/debug-internal.log
+2023-07-17 11:55:55,442 INFO    MainThread:1119618 [wandb_init.py:init():547] calling init triggers
+2023-07-17 11:55:55,442 INFO    MainThread:1119618 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-17 11:55:55,442 INFO    MainThread:1119618 [wandb_init.py:init():596] starting backend
+2023-07-17 11:55:55,442 INFO    MainThread:1119618 [wandb_init.py:init():600] setting up manager
+2023-07-17 11:55:55,443 INFO    MainThread:1119618 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-17 11:55:55,444 INFO    MainThread:1119618 [wandb_init.py:init():606] backend started and connected
+2023-07-17 11:55:55,446 INFO    MainThread:1119618 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-17 11:55:55,448 INFO    MainThread:1119618 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-17 11:55:55,448 INFO    MainThread:1119618 [wandb_init.py:init():705] updated telemetry
+2023-07-17 11:55:55,448 INFO    MainThread:1119618 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-17 11:56:02,144 WARNING MainThread:1119618 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 741, in init
+    result = run_init_handle.wait(
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2023-07-17 11:56:06,714 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-17 11:56:06,794 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Configure stats pid to 1119618
+2023-07-17 11:56:06,794 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-17 11:56:06,795 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-17 11:56:06,795 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-17 11:56:06,795 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-17 11:56:06,796 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-17 11:56:06,796 INFO    MainThread:1119618 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230717_115606-6xfqu1oz/logs/debug.log
+2023-07-17 11:56:06,796 INFO    MainThread:1119618 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230717_115606-6xfqu1oz/logs/debug-internal.log
+2023-07-17 11:56:06,797 INFO    MainThread:1119618 [wandb_init.py:init():547] calling init triggers
+2023-07-17 11:56:06,797 INFO    MainThread:1119618 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-17 11:56:06,797 INFO    MainThread:1119618 [wandb_init.py:init():596] starting backend
+2023-07-17 11:56:06,798 INFO    MainThread:1119618 [wandb_init.py:init():600] setting up manager
+2023-07-17 11:56:06,799 INFO    MainThread:1119618 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-17 11:56:06,800 INFO    MainThread:1119618 [wandb_init.py:init():606] backend started and connected
+2023-07-17 11:56:06,804 INFO    MainThread:1119618 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-17 11:56:06,805 INFO    MainThread:1119618 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-17 11:56:06,805 INFO    MainThread:1119618 [wandb_init.py:init():705] updated telemetry
+2023-07-17 11:56:06,806 INFO    MainThread:1119618 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-17 11:56:08,175 WARNING MainThread:1119618 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 741, in init
+    result = run_init_handle.wait(
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2023-07-17 11:57:45,416 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-17 11:57:45,418 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Configure stats pid to 1119618
+2023-07-17 11:57:45,418 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-17 11:57:45,419 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-17 11:57:45,419 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-17 11:57:45,419 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-17 11:57:45,419 INFO    MainThread:1119618 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-17 11:57:45,420 INFO    MainThread:1119618 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230717_115745-e7vy1q3s/logs/debug.log
+2023-07-17 11:57:45,420 INFO    MainThread:1119618 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230717_115745-e7vy1q3s/logs/debug-internal.log
+2023-07-17 11:57:45,420 INFO    MainThread:1119618 [wandb_init.py:init():547] calling init triggers
+2023-07-17 11:57:45,421 INFO    MainThread:1119618 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-17 11:57:45,421 INFO    MainThread:1119618 [wandb_init.py:init():596] starting backend
+2023-07-17 11:57:45,422 INFO    MainThread:1119618 [wandb_init.py:init():600] setting up manager
+2023-07-17 11:57:45,423 INFO    MainThread:1119618 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-17 11:57:45,424 INFO    MainThread:1119618 [wandb_init.py:init():606] backend started and connected
+2023-07-17 11:57:45,428 INFO    MainThread:1119618 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-17 11:57:45,429 INFO    MainThread:1119618 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-17 11:57:45,430 INFO    MainThread:1119618 [wandb_init.py:init():705] updated telemetry
+2023-07-17 11:57:45,430 INFO    MainThread:1119618 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-17 11:58:45,460 ERROR   MainThread:1119618 [wandb_init.py:init():764] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-07-17 11:58:47,468 ERROR   MainThread:1119618 [wandb_init.py:init():1172] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 770, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

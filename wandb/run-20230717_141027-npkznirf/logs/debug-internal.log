@@ -1,0 +1,1124 @@
+2023-07-17 14:10:27,029 INFO    StreamThr :1129641 [internal.py:wandb_internal():86] W&B internal server running at pid: 1129641, started at: 2023-07-17 14:10:27.029185
+2023-07-17 14:10:27,030 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status
+2023-07-17 14:10:27,032 INFO    WriterThread:1129641 [datastore.py:open_for_write():85] open: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/run-npkznirf.wandb
+2023-07-17 14:10:27,033 DEBUG   SenderThread:1129641 [sender.py:send():369] send: header
+2023-07-17 14:10:27,035 DEBUG   SenderThread:1129641 [sender.py:send():369] send: run
+2023-07-17 14:10:28,205 INFO    SenderThread:1129641 [dir_watcher.py:__init__():211] watching files in: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files
+2023-07-17 14:10:28,205 INFO    SenderThread:1129641 [sender.py:_start_run_threads():1100] run started: npkznirf with start time 1689617427.027861
+2023-07-17 14:10:28,205 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:28,206 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:28,211 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: check_version
+2023-07-17 14:10:28,212 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: check_version
+2023-07-17 14:10:28,304 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: run_start
+2023-07-17 14:10:28,310 DEBUG   HandlerThread:1129641 [system_info.py:__init__():31] System info init
+2023-07-17 14:10:28,310 DEBUG   HandlerThread:1129641 [system_info.py:__init__():46] System info init done
+2023-07-17 14:10:28,311 INFO    HandlerThread:1129641 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 14:10:28,311 INFO    SystemMonitor:1129641 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 14:10:28,311 INFO    HandlerThread:1129641 [system_monitor.py:probe():201] Collecting system info
+2023-07-17 14:10:28,312 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 14:10:28,312 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 14:10:28,312 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started gpu monitoring
+2023-07-17 14:10:28,313 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 14:10:28,313 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started network monitoring
+2023-07-17 14:10:28,340 DEBUG   HandlerThread:1129641 [system_info.py:probe():195] Probing system
+2023-07-17 14:10:28,342 DEBUG   HandlerThread:1129641 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-17 14:10:28,342 DEBUG   HandlerThread:1129641 [system_info.py:probe():240] Probing system done
+2023-07-17 14:10:28,342 DEBUG   HandlerThread:1129641 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-73-generic-x86_64-with-glibc2.31', 'python': '3.10.12', 'heartbeatAt': '2023-07-17T18:10:28.340965', 'startedAt': '2023-07-17T18:10:27.022702', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'lambda-dual-eureka', 'username': 'robot-lab', 'executable': '/home/robot-lab/anaconda3/envs/BVAE/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2637.2888333333335, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3796.946, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 4249.023, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 4248.963, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3800.0, 'min': 2200.0, 'max': 3800.0}], 'disk': {'total': 915.3232879638672, 'used': 864.0749359130859}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 62.727272033691406}}
+2023-07-17 14:10:28,342 INFO    HandlerThread:1129641 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-17 14:10:28,342 INFO    HandlerThread:1129641 [system_monitor.py:probe():214] Publishing system info
+2023-07-17 14:10:28,342 DEBUG   HandlerThread:1129641 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-17 14:10:28,342 DEBUG   HandlerThread:1129641 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-17 14:10:28,342 DEBUG   HandlerThread:1129641 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-17 14:10:29,207 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/conda-environment.yaml
+2023-07-17 14:10:29,207 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/requirements.txt
+2023-07-17 14:10:29,207 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:33,915 DEBUG   HandlerThread:1129641 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-17 14:10:33,916 INFO    HandlerThread:1129641 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-17 14:10:33,918 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:10:33,918 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-17 14:10:33,918 DEBUG   SenderThread:1129641 [sender.py:send():369] send: files
+2023-07-17 14:10:33,919 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-17 14:10:33,932 DEBUG   SenderThread:1129641 [sender.py:send():369] send: telemetry
+2023-07-17 14:10:33,932 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 14:10:33,932 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 14:10:33,933 INFO    HandlerThread:1129641 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 14:10:33,933 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 14:10:33,933 INFO    HandlerThread:1129641 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 14:10:33,934 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 14:10:33,935 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 14:10:33,935 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 14:10:33,935 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 14:10:33,935 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 14:10:34,035 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-17 14:10:34,035 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 14:10:34,036 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 14:10:34,093 DEBUG   SenderThread:1129641 [sender.py:send():369] send: stats
+2023-07-17 14:10:34,207 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/conda-environment.yaml
+2023-07-17 14:10:34,207 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-metadata.json
+2023-07-17 14:10:34,284 INFO    wandb-upload_0:1129641 [upload_job.py:push():133] Uploaded file /tmp/tmp2u_90bymwandb/mf8d7usr-wandb-metadata.json
+2023-07-17 14:10:38,094 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:10:43,095 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:10:46,957 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 14:10:46,957 INFO    HandlerThread:1129641 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 14:10:46,957 INFO    HandlerThread:1129641 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 14:10:46,957 INFO    SystemMonitor:1129641 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 14:10:46,957 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 14:10:46,958 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 14:10:46,958 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started gpu monitoring
+2023-07-17 14:10:46,958 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 14:10:46,959 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started network monitoring
+2023-07-17 14:10:48,096 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:10:48,931 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 14:10:48,931 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 14:10:49,146 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:49,147 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:49,147 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:49,149 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:49,210 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:49,211 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:10:49,405 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:49,406 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:49,406 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:49,406 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:49,663 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:49,664 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:49,664 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:49,664 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:49,922 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:49,923 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:49,923 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:49,923 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:50,180 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:50,181 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:50,181 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:50,182 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:50,211 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:50,438 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:50,439 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:50,439 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:50,440 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:50,699 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:50,699 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:50,699 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:50,700 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:50,957 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:50,957 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:50,958 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:50,958 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:51,211 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:10:51,211 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:51,216 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:51,216 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:51,217 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:51,218 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:51,475 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:51,475 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:51,476 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:51,476 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:51,733 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:51,733 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:51,734 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:51,734 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:51,991 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:51,991 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:51,995 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:51,995 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:52,211 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:52,249 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:52,250 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:52,250 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:52,251 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:52,510 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:52,510 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:52,511 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:52,511 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:52,769 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:52,770 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:52,770 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:52,770 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:53,028 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:53,029 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:53,029 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:53,030 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:53,212 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:10:53,212 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:53,274 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:10:53,288 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:53,288 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:53,289 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:53,290 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:53,549 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:53,549 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:53,550 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:53,550 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:53,809 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:53,810 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:53,810 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:53,810 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:54,070 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:54,070 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:54,071 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:54,071 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:54,212 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:54,329 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:54,330 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:54,330 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:54,331 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:54,590 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:54,591 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:54,591 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:54,592 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:54,847 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:54,848 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:54,849 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:54,849 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:55,106 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:55,107 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:55,107 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:55,108 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:55,213 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:10:55,213 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:55,366 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:55,366 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:55,366 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:55,368 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:55,625 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:55,625 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:55,625 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:55,626 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:55,886 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:55,886 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:55,887 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:55,887 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:56,146 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:56,147 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:56,147 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:56,147 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:56,213 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:56,405 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:56,406 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:56,406 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:56,406 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:56,665 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:56,666 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:56,666 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:56,666 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:56,926 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:56,927 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:56,927 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:56,927 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:57,186 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:57,187 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:57,187 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:57,187 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:57,214 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:10:57,214 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:57,447 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:57,447 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:57,447 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:57,449 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:57,707 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:57,707 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:57,707 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:57,708 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:57,966 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:57,967 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:57,967 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:57,968 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:58,214 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:58,226 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:58,227 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:58,227 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:58,227 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:58,477 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:10:58,487 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:58,659 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:58,659 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:58,659 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:58,747 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:58,750 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:58,751 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:58,752 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:59,007 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:59,007 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:59,008 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:59,008 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:59,214 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/config.yaml
+2023-07-17 14:10:59,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:10:59,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:10:59,266 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:59,266 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:59,266 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:59,267 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:59,525 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:59,526 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:59,526 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:59,528 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:10:59,787 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:10:59,787 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:10:59,787 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:10:59,787 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:00,048 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:00,049 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:00,049 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:00,049 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:00,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:00,308 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:00,308 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:00,309 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:00,309 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:00,568 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:00,569 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:00,569 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:00,570 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:00,829 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:00,829 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:00,830 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:00,830 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:01,089 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:01,089 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:01,089 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:01,090 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:01,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:01,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:01,348 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:01,349 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:01,349 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:01,349 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:01,608 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:01,609 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:01,609 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:01,611 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:01,871 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:01,872 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:01,872 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:01,873 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:02,135 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:02,136 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:02,136 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:02,136 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:02,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:02,400 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:02,400 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:02,401 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:02,401 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:02,663 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:02,664 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:02,664 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:02,664 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:02,930 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:02,930 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:02,930 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:02,931 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:03,196 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:03,196 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:03,196 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:03,197 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:03,215 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:03,216 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:03,462 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:03,463 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:03,463 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:03,463 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:03,711 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:03,726 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:03,726 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:03,726 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:03,728 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:03,931 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 14:11:03,931 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 14:11:03,986 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:03,994 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:03,994 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:03,995 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:04,216 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:04,273 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:04,274 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:04,274 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:04,275 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:04,508 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:04,509 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:04,509 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:04,510 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:04,771 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:04,771 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:04,771 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:04,771 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:05,032 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:05,032 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:05,033 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:05,033 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:05,216 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:05,216 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:05,294 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:05,294 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:05,294 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:05,295 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:05,555 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:05,556 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:05,556 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:05,556 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:05,816 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:05,817 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:05,817 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:05,819 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:06,078 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:06,079 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:06,079 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:06,079 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:06,216 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:06,340 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:06,341 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:06,341 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:06,341 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:06,602 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:06,602 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:06,603 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:06,603 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:06,863 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:06,863 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:06,863 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:06,864 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:07,123 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:07,124 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:07,124 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:07,125 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:07,217 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:07,217 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:07,386 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:07,386 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:07,387 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:07,387 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:07,647 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:07,648 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:07,648 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:07,649 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:07,909 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:07,910 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:07,910 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:07,912 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:08,170 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:08,171 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:08,171 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:08,172 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:08,217 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:08,432 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:08,432 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:08,433 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:08,433 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:08,692 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:08,693 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:08,693 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:08,694 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:08,940 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:08,954 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:08,961 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:08,962 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:08,962 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:09,217 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:09,217 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:09,217 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:09,218 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:09,218 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:09,219 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:09,477 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:09,478 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:09,478 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:09,479 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:09,738 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:09,739 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:09,739 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:09,739 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:09,999 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:09,999 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:09,999 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:10,001 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:10,218 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:10,257 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:10,258 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:10,258 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:10,259 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:10,519 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:10,519 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:10,520 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:10,520 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:10,781 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:10,782 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:10,783 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:10,783 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:11,043 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:11,043 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:11,044 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:11,044 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:11,219 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:11,219 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:11,307 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:11,308 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:11,308 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:11,308 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:11,568 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:11,569 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:11,569 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:11,569 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:11,829 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:11,830 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:11,830 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:11,831 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:12,091 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:12,092 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:12,092 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:12,094 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:12,219 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:12,355 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:12,356 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:12,356 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:12,357 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:12,617 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:12,617 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:12,618 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:12,618 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:12,880 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:12,880 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:12,880 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:12,881 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:13,145 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:13,146 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:13,146 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:13,146 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:13,219 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:13,220 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:13,407 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:13,408 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:13,408 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:13,408 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:13,668 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:13,669 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:13,670 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:13,670 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:13,931 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:13,932 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:13,932 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:13,932 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:14,176 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:14,192 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:14,193 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:14,193 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:14,193 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:14,220 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:14,450 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:14,451 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:14,451 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:14,452 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:14,711 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:14,712 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:14,712 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:14,712 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:14,973 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:14,974 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:14,974 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:14,974 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:15,220 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:15,220 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:15,234 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:15,235 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:15,235 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:15,236 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:15,497 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:15,498 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:15,498 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:15,499 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:15,760 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:15,760 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:15,761 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:15,761 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:16,020 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:16,021 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:16,021 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:16,022 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:16,220 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:16,278 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:16,279 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:16,279 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:16,281 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:16,540 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:16,541 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:16,541 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:16,542 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:16,802 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:16,803 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:16,803 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:16,803 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:17,063 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:17,064 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:17,064 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:17,065 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:17,221 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:17,221 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:17,327 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:17,328 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:17,328 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:17,329 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:17,588 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:17,589 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:17,589 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:17,590 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:17,851 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:17,851 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:17,852 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:17,853 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:18,114 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:18,114 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:18,115 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:18,115 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:18,221 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:18,375 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:18,375 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:18,375 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:18,377 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:18,637 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:18,637 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:18,638 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:18,638 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:18,899 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:18,900 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:18,900 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:18,901 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:18,931 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 14:11:18,932 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 14:11:19,162 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:19,163 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:19,163 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:19,164 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:19,222 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:19,222 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:19,412 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:19,424 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:19,425 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:19,425 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:19,426 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:19,689 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:19,690 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:19,690 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:19,691 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:19,953 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:19,954 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:19,954 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:19,955 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:20,215 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:20,216 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:20,216 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:20,217 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:20,222 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:20,478 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:20,480 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:20,480 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:20,482 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:20,742 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:20,743 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:20,743 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:20,743 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:21,005 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:21,005 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:21,005 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:21,006 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:21,222 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:21,222 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:21,266 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:21,267 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:21,267 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:21,267 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:21,528 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:21,529 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:21,529 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:21,530 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:21,790 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:21,791 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:21,791 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:21,792 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:22,053 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:22,053 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:22,054 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:22,054 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:22,223 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:22,314 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:22,315 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:22,315 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:22,315 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:22,576 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:22,576 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:22,576 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:22,578 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:22,837 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:22,838 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:22,838 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:22,839 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:23,098 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:23,099 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:23,099 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:23,100 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:23,223 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:23,223 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:23,363 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:23,363 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:23,363 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:23,363 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:23,624 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:23,625 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:23,625 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:23,625 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:23,886 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:23,887 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:23,887 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:23,887 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:24,147 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:24,147 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:24,148 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:24,148 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:24,223 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:24,409 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:24,410 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:24,413 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:24,413 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:24,414 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:24,671 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:24,672 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:24,672 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:24,674 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:24,933 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:24,933 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:24,933 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:24,934 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:25,192 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:25,193 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:25,193 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:25,193 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:25,224 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:25,224 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:25,454 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:25,455 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:25,455 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:25,455 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:25,714 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:25,714 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:25,715 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:25,715 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:25,974 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:25,974 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:25,974 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:25,975 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:26,224 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:26,236 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:26,236 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:26,237 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:26,237 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:26,496 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:26,497 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:26,497 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:26,497 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:26,756 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:26,757 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:26,757 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:26,759 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:27,017 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:27,017 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:27,017 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:27,018 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:27,224 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:27,225 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:27,277 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:27,278 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:27,278 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:27,278 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:27,539 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:27,540 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:27,540 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:27,540 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:27,801 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:27,801 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:27,802 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:27,802 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:28,061 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:28,062 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:28,062 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:28,063 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:28,225 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:28,325 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:28,326 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:28,326 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:28,326 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:28,586 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:28,586 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:28,586 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:28,587 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:28,847 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:28,847 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:28,848 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:28,848 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:29,109 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:29,109 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:29,109 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:29,109 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:29,225 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:29,226 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:29,370 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:29,370 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:29,371 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:29,371 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:29,617 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:29,633 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:29,633 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:29,633 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:29,634 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:29,893 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:29,894 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:29,894 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:29,895 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:30,154 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:30,155 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:30,155 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:30,156 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:30,225 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:30,416 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:30,416 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:30,416 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:30,417 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:30,677 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:30,678 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:30,678 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:30,679 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:30,940 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:30,941 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:30,941 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:30,942 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:31,201 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:31,202 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:31,202 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:31,202 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:31,226 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:31,226 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:31,463 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:31,464 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:31,464 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:31,464 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:31,725 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:31,726 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:31,726 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:31,726 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:31,986 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:31,986 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:31,987 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:31,987 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:32,226 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:32,247 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:32,248 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:32,248 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:32,248 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:32,509 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:32,509 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:32,510 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:32,510 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:32,771 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:32,771 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:32,772 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:32,772 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:33,031 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:33,032 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:33,032 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:33,033 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:33,226 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:33,227 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:33,294 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:33,295 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:33,295 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:33,296 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:33,555 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:33,555 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:33,556 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:33,556 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:33,815 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:33,816 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:33,816 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:33,817 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:33,931 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 14:11:33,931 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 14:11:34,077 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:34,078 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:34,078 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:34,079 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:34,227 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:34,340 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:34,341 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:34,341 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:34,342 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:34,601 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:34,602 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:34,602 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:34,602 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:34,848 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:34,862 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:34,862 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:34,863 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:34,863 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:35,124 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:35,125 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:35,125 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:35,125 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:35,228 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:35,228 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:35,389 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:35,390 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:35,390 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:35,390 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:35,650 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:35,651 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:35,651 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:35,651 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:35,910 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:35,911 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:35,911 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:35,911 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:36,171 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:36,172 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:36,172 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:36,172 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:36,228 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:36,432 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:36,433 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:36,433 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:36,433 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:36,692 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:36,693 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:36,693 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:36,694 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:36,955 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:36,956 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:36,956 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:36,958 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:37,217 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:37,217 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:37,218 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:37,218 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:37,229 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:37,229 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:37,479 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:37,479 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:37,479 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:37,480 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:37,741 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:37,742 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:37,742 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:37,742 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:38,003 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:38,004 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:38,004 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:38,004 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:38,229 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:38,265 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:38,266 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:38,266 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:38,267 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:38,529 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:38,529 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:38,529 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:38,530 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:38,791 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:38,792 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:38,792 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:38,792 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:39,055 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:39,055 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:39,056 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:39,056 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:39,230 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:39,230 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:39,319 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:39,320 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:39,320 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:39,321 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:39,585 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:39,586 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:39,586 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:39,587 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:39,849 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:39,856 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:39,857 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:39,857 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:39,857 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:40,111 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:40,112 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:40,112 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:40,113 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:40,230 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:40,375 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:40,376 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:40,376 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:40,377 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:40,640 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:40,640 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:40,641 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:40,641 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:40,904 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:40,904 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:40,904 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:40,905 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:41,167 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 14:11:41,167 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 14:11:41,168 INFO    HandlerThread:1129641 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 14:11:41,168 DEBUG   SenderThread:1129641 [sender.py:send():369] send: history
+2023-07-17 14:11:41,168 INFO    HandlerThread:1129641 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 14:11:41,168 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 14:11:41,169 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 14:11:41,169 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 14:11:41,169 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 14:11:41,169 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 14:11:41,169 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:41,170 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 14:11:41,230 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:41,231 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:41,317 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-17 14:11:41,318 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 14:11:41,318 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 14:11:41,318 DEBUG   SenderThread:1129641 [sender.py:send():369] send: stats
+2023-07-17 14:11:43,231 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:45,319 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:46,001 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 14:11:46,005 INFO    HandlerThread:1129641 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 14:11:46,005 INFO    HandlerThread:1129641 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 14:11:46,005 INFO    SystemMonitor:1129641 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 14:11:46,005 DEBUG   SenderThread:1129641 [sender.py:send():369] send: telemetry
+2023-07-17 14:11:46,006 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 14:11:46,006 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 14:11:46,006 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started gpu monitoring
+2023-07-17 14:11:46,007 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 14:11:46,007 INFO    SystemMonitor:1129641 [interfaces.py:start():190] Started network monitoring
+2023-07-17 14:11:46,030 DEBUG   SenderThread:1129641 [sender.py:send():369] send: exit
+2023-07-17 14:11:46,030 INFO    SenderThread:1129641 [sender.py:send_exit():574] handling exit code: 0
+2023-07-17 14:11:46,030 INFO    SenderThread:1129641 [sender.py:send_exit():576] handling runtime: 60
+2023-07-17 14:11:46,030 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:46,030 INFO    SenderThread:1129641 [sender.py:send_exit():582] send defer
+2023-07-17 14:11:46,031 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,031 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-17 14:11:46,031 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,031 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-17 14:11:46,031 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 1
+2023-07-17 14:11:46,031 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,031 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-17 14:11:46,031 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,031 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-17 14:11:46,032 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 2
+2023-07-17 14:11:46,032 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,032 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-17 14:11:46,032 INFO    HandlerThread:1129641 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 14:11:46,032 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 14:11:46,032 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 14:11:46,032 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 14:11:46,033 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 14:11:46,033 DEBUG   SystemMonitor:1129641 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 14:11:46,144 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-17 14:11:46,144 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 14:11:46,145 INFO    HandlerThread:1129641 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 14:11:46,145 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,145 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-17 14:11:46,145 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 3
+2023-07-17 14:11:46,145 DEBUG   SenderThread:1129641 [sender.py:send():369] send: stats
+2023-07-17 14:11:46,145 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,146 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-17 14:11:46,146 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,146 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-17 14:11:46,146 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 4
+2023-07-17 14:11:46,146 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,146 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-17 14:11:46,146 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,146 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-17 14:11:46,146 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 5
+2023-07-17 14:11:46,146 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,146 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-17 14:11:46,146 DEBUG   SenderThread:1129641 [sender.py:send():369] send: summary
+2023-07-17 14:11:46,147 INFO    SenderThread:1129641 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 14:11:46,147 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,147 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-17 14:11:46,147 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 6
+2023-07-17 14:11:46,147 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,147 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-17 14:11:46,147 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,147 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-17 14:11:46,151 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 14:11:46,232 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:46,287 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 7
+2023-07-17 14:11:46,287 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:46,287 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-17 14:11:46,287 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:46,287 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-17 14:11:47,031 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 14:11:47,221 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 8
+2023-07-17 14:11:47,222 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 14:11:47,222 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:47,222 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-17 14:11:47,222 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:47,222 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-17 14:11:47,222 INFO    SenderThread:1129641 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-17 14:11:47,223 INFO    SenderThread:1129641 [job_builder.py:build():259] run is notebook based run
+2023-07-17 14:11:47,223 INFO    SenderThread:1129641 [job_builder.py:build():274] no source found
+2023-07-17 14:11:47,223 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 9
+2023-07-17 14:11:47,223 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:47,223 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-17 14:11:47,223 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:47,223 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-17 14:11:47,223 INFO    SenderThread:1129641 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-17 14:11:47,232 INFO    Thread-12 :1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/config.yaml
+2023-07-17 14:11:47,233 INFO    SenderThread:1129641 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:47,233 INFO    SenderThread:1129641 [dir_watcher.py:finish():389] scan: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files
+2023-07-17 14:11:47,233 INFO    SenderThread:1129641 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log output.log
+2023-07-17 14:11:47,233 INFO    SenderThread:1129641 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json wandb-summary.json
+2023-07-17 14:11:47,234 INFO    SenderThread:1129641 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-metadata.json wandb-metadata.json
+2023-07-17 14:11:47,238 INFO    SenderThread:1129641 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/config.yaml config.yaml
+2023-07-17 14:11:47,239 INFO    SenderThread:1129641 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/conda-environment.yaml conda-environment.yaml
+2023-07-17 14:11:47,239 INFO    SenderThread:1129641 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/requirements.txt requirements.txt
+2023-07-17 14:11:47,239 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 10
+2023-07-17 14:11:47,242 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:47,244 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-17 14:11:47,247 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:47,247 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-17 14:11:47,247 INFO    SenderThread:1129641 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-17 14:11:47,535 INFO    wandb-upload_2:1129641 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/config.yaml
+2023-07-17 14:11:47,552 INFO    wandb-upload_1:1129641 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/wandb-summary.json
+2023-07-17 14:11:47,562 INFO    wandb-upload_3:1129641 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/conda-environment.yaml
+2023-07-17 14:11:47,596 INFO    wandb-upload_4:1129641 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/requirements.txt
+2023-07-17 14:11:47,669 INFO    wandb-upload_0:1129641 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/files/output.log
+2023-07-17 14:11:47,870 INFO    Thread-11 (_thread_body):1129641 [sender.py:transition_state():602] send defer: 11
+2023-07-17 14:11:47,870 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:47,870 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-17 14:11:47,870 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:47,870 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-17 14:11:47,870 INFO    SenderThread:1129641 [file_pusher.py:join():164] waiting for file pusher
+2023-07-17 14:11:47,870 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 12
+2023-07-17 14:11:47,871 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:47,871 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-17 14:11:47,871 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:47,871 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-17 14:11:48,031 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 14:11:48,323 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 13
+2023-07-17 14:11:48,323 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 14:11:48,323 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:48,323 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-17 14:11:48,324 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:48,324 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-17 14:11:48,324 INFO    SenderThread:1129641 [sender.py:transition_state():602] send defer: 14
+2023-07-17 14:11:48,324 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 14:11:48,324 DEBUG   SenderThread:1129641 [sender.py:send():369] send: final
+2023-07-17 14:11:48,324 INFO    HandlerThread:1129641 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-17 14:11:48,324 DEBUG   SenderThread:1129641 [sender.py:send():369] send: footer
+2023-07-17 14:11:48,324 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: defer
+2023-07-17 14:11:48,324 INFO    SenderThread:1129641 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-17 14:11:48,325 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 14:11:48,325 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: server_info
+2023-07-17 14:11:48,325 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 14:11:48,325 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-17 14:11:48,326 DEBUG   SenderThread:1129641 [sender.py:send_request():396] send_request: server_info
+2023-07-17 14:11:48,326 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-17 14:11:48,440 DEBUG   HandlerThread:1129641 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-17 14:11:48,440 INFO    HandlerThread:1129641 [handler.py:finish():854] shutting down handler
+2023-07-17 14:11:49,326 INFO    WriterThread:1129641 [datastore.py:close():298] close: /home/robot-lab/Documents/wandb/run-20230717_141027-npkznirf/run-npkznirf.wandb
+2023-07-17 14:11:49,440 INFO    SenderThread:1129641 [sender.py:finish():1526] shutting down sender
+2023-07-17 14:11:49,440 INFO    SenderThread:1129641 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-17 14:11:49,440 INFO    SenderThread:1129641 [file_pusher.py:join():164] waiting for file pusher

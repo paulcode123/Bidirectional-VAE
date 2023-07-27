@@ -1,0 +1,1 @@
+{"Image Reconstruction Loss": 0.8176469206809998, "Image KL Loss": Infinity, "Image Supervised Loss": 0.10839318484067917, "Action Reconstruction Loss": NaN, "Action KL Loss": NaN, "Action Supervised Loss": NaN, "Encoder Loss": NaN, "Decoder Loss": NaN, "_timestamp": 1689704046.2543583, "_runtime": 1326.8302283287048, "_step": 193}

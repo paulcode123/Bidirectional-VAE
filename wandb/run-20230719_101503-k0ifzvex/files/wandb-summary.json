@@ -1,0 +1,1 @@
+{"Total Image Loss": NaN, "Total Action Loss": NaN, "Image Reconstruction Loss": NaN, "Image KL Loss": NaN, "Image Supervised Loss": NaN, "Action Reconstruction Loss": NaN, "Action KL Loss": NaN, "Action Supervised Loss": NaN, "Encoder Loss": NaN, "Decoder Loss": NaN, "_timestamp": 1689776177.6220267, "_runtime": 74.06030178070068, "_step": 26, "_wandb": {"runtime": 63}}

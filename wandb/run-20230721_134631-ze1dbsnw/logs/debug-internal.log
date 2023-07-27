@@ -1,0 +1,1354 @@
+2023-07-21 13:46:31,132 INFO    StreamThr :32255 [internal.py:wandb_internal():86] W&B internal server running at pid: 32255, started at: 2023-07-21 13:46:31.132010
+2023-07-21 13:46:31,133 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status
+2023-07-21 13:46:31,135 INFO    WriterThread:32255 [datastore.py:open_for_write():85] open: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/run-ze1dbsnw.wandb
+2023-07-21 13:46:31,136 DEBUG   SenderThread:32255 [sender.py:send():369] send: header
+2023-07-21 13:46:31,136 DEBUG   SenderThread:32255 [sender.py:send():369] send: run
+2023-07-21 13:46:31,452 INFO    SenderThread:32255 [dir_watcher.py:__init__():211] watching files in: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files
+2023-07-21 13:46:31,452 INFO    SenderThread:32255 [sender.py:_start_run_threads():1100] run started: ze1dbsnw with start time 1689961591.131736
+2023-07-21 13:46:31,456 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:31,456 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:31,459 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: check_version
+2023-07-21 13:46:31,460 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: check_version
+2023-07-21 13:46:31,518 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: run_start
+2023-07-21 13:46:31,519 DEBUG   HandlerThread:32255 [system_info.py:__init__():31] System info init
+2023-07-21 13:46:31,519 DEBUG   HandlerThread:32255 [system_info.py:__init__():46] System info init done
+2023-07-21 13:46:31,519 INFO    HandlerThread:32255 [system_monitor.py:start():181] Starting system monitor
+2023-07-21 13:46:31,519 INFO    SystemMonitor:32255 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-21 13:46:31,520 INFO    HandlerThread:32255 [system_monitor.py:probe():201] Collecting system info
+2023-07-21 13:46:31,520 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started cpu monitoring
+2023-07-21 13:46:31,521 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started disk monitoring
+2023-07-21 13:46:31,521 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started gpu monitoring
+2023-07-21 13:46:31,522 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started memory monitoring
+2023-07-21 13:46:31,523 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started network monitoring
+2023-07-21 13:46:31,551 DEBUG   HandlerThread:32255 [system_info.py:probe():195] Probing system
+2023-07-21 13:46:31,551 DEBUG   HandlerThread:32255 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-21 13:46:31,551 DEBUG   HandlerThread:32255 [system_info.py:probe():240] Probing system done
+2023-07-21 13:46:31,551 DEBUG   HandlerThread:32255 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-76-generic-x86_64-with-glibc2.31', 'python': '3.10.12', 'heartbeatAt': '2023-07-21T17:46:31.551385', 'startedAt': '2023-07-21T17:46:31.127733', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'lambda-dual-eureka', 'username': 'robot-lab', 'executable': '/home/robot-lab/anaconda3/envs/BVAE/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2498.8122500000004, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 4225.739, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2212.427, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 4225.243, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}], 'disk': {'total': 915.3232879638672, 'used': 867.1449546813965}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 62.715545654296875}}
+2023-07-21 13:46:31,551 INFO    HandlerThread:32255 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-21 13:46:31,551 INFO    HandlerThread:32255 [system_monitor.py:probe():214] Publishing system info
+2023-07-21 13:46:31,551 DEBUG   HandlerThread:32255 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-21 13:46:31,552 DEBUG   HandlerThread:32255 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-21 13:46:31,552 DEBUG   HandlerThread:32255 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-21 13:46:32,453 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:32,453 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/requirements.txt
+2023-07-21 13:46:32,453 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/conda-environment.yaml
+2023-07-21 13:46:37,224 DEBUG   HandlerThread:32255 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-21 13:46:37,225 INFO    HandlerThread:32255 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-21 13:46:37,225 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:46:37,225 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-21 13:46:37,225 DEBUG   SenderThread:32255 [sender.py:send():369] send: files
+2023-07-21 13:46:37,226 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-21 13:46:37,237 DEBUG   SenderThread:32255 [sender.py:send():369] send: telemetry
+2023-07-21 13:46:37,237 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: pause
+2023-07-21 13:46:37,238 INFO    HandlerThread:32255 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-21 13:46:37,238 INFO    HandlerThread:32255 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-21 13:46:37,238 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-21 13:46:37,238 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined disk monitor
+2023-07-21 13:46:37,238 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-21 13:46:37,238 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-21 13:46:37,238 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-21 13:46:37,301 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-21 13:46:37,301 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined memory monitor
+2023-07-21 13:46:37,301 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined network monitor
+2023-07-21 13:46:37,301 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:46:37,301 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:46:37,302 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:46:37,453 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/conda-environment.yaml
+2023-07-21 13:46:37,454 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-metadata.json
+2023-07-21 13:46:37,498 INFO    wandb-upload_0:32255 [upload_job.py:push():133] Uploaded file /tmp/tmpicad06q6wandb/v9jrvw29-wandb-metadata.json
+2023-07-21 13:46:41,843 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: resume
+2023-07-21 13:46:41,843 INFO    HandlerThread:32255 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-21 13:46:41,843 INFO    HandlerThread:32255 [system_monitor.py:start():181] Starting system monitor
+2023-07-21 13:46:41,843 INFO    SystemMonitor:32255 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-21 13:46:41,844 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started cpu monitoring
+2023-07-21 13:46:41,844 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started disk monitoring
+2023-07-21 13:46:41,844 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started gpu monitoring
+2023-07-21 13:46:41,844 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started memory monitoring
+2023-07-21 13:46:41,845 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started network monitoring
+2023-07-21 13:46:42,381 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:46:42,750 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:42,752 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:42,752 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:42,755 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:43,455 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:43,456 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:43,543 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:43,544 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:43,544 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:43,545 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:44,335 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:44,336 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:44,336 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:44,337 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:44,456 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:45,146 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:45,147 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:45,148 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:45,150 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:45,457 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:45,457 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:45,941 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:45,942 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:45,942 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:45,943 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:46,457 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:46,748 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:46,749 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:46,749 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:46,750 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:47,458 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:47,458 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:47,536 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:46:47,552 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:47,553 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:47,553 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:47,555 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:48,370 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:48,371 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:48,371 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:48,372 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:48,458 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:49,175 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:49,176 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:49,176 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:49,176 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:49,459 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:49,460 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:49,974 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:49,974 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:49,975 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:49,976 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:50,460 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:50,775 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:50,775 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:50,776 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:50,776 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:51,461 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:51,461 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:51,571 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:51,572 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:51,572 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:51,573 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:52,237 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:46:52,238 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:46:52,365 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:52,373 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:52,373 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:52,375 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:52,461 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:53,158 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:46:53,174 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:53,175 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:53,175 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:53,176 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:53,462 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:53,462 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:53,965 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:53,966 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:53,966 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:53,966 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:54,462 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:54,749 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:54,750 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:54,750 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:54,752 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:55,463 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:55,463 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:55,544 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:55,545 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:55,545 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:55,545 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:56,347 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:56,348 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:56,348 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:56,348 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:56,464 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:57,183 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:57,184 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:57,184 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:57,185 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:57,464 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:57,465 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:58,020 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:58,021 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:58,021 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:58,022 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:58,466 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:58,810 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:46:58,826 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:58,827 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:58,827 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:58,828 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:46:59,467 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:46:59,468 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:46:59,623 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:46:59,623 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:46:59,623 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:46:59,624 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:00,420 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:00,421 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:00,421 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:00,422 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:00,467 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:01,212 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:01,212 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:01,213 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:01,213 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:01,467 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:01,467 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:02,007 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:02,008 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:02,008 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:02,008 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:02,467 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:02,800 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:02,804 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:02,804 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:02,805 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:03,468 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:03,468 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:03,600 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:03,606 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:03,607 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:03,607 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:04,393 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:04,407 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:04,469 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:04,508 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:04,508 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:04,508 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:05,208 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:05,209 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:05,209 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:05,210 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:05,470 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/config.yaml
+2023-07-21 13:47:05,470 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:05,470 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:06,000 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:06,001 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:06,001 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:06,002 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:06,470 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:06,801 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:06,802 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:06,802 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:06,802 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:07,240 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:47:07,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:47:07,470 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:07,470 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:07,621 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:07,623 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:07,623 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:07,624 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:08,392 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:08,393 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:08,393 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:08,393 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:08,471 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:09,184 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:09,185 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:09,185 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:09,186 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:09,471 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:09,472 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:09,961 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:09,977 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:09,978 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:09,979 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:09,979 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:10,472 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:10,770 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:10,771 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:10,771 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:10,772 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:11,473 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:11,473 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:11,570 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:11,571 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:11,572 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:11,572 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:12,363 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:12,364 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:12,364 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:12,365 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:12,474 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:13,156 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:13,157 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:13,157 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:13,158 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:13,474 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:13,475 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:13,959 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:13,960 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:13,960 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:13,962 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:14,475 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:14,745 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:14,746 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:14,746 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:14,746 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:15,475 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:15,476 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:15,529 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:15,545 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:15,546 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:15,546 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:15,547 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:16,352 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:16,353 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:16,353 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:16,353 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:16,477 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:17,184 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:17,185 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:17,186 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:17,186 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:17,478 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:17,478 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:18,013 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:18,014 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:18,014 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:18,015 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:18,478 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:18,825 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:18,826 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:18,827 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:18,833 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:19,480 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:19,481 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:19,635 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:19,637 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:19,637 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:19,638 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:20,442 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:20,444 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:20,444 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:20,444 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:20,480 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:21,238 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:21,253 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:21,255 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:21,255 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:21,255 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:21,481 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:21,481 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:22,078 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:22,079 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:22,079 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:22,080 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:22,237 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:47:22,238 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:47:22,481 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:22,903 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:22,904 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:22,905 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:22,906 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:23,482 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:23,483 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:23,708 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:23,709 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:23,709 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:23,710 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:24,483 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:24,517 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:24,518 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:24,518 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:24,519 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:25,315 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:25,321 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:25,321 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:25,322 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:25,484 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:25,484 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:26,115 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:26,116 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:26,116 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:26,117 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:26,484 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:26,898 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:26,914 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:26,915 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:26,916 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:26,916 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:27,485 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:27,485 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:27,713 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:27,713 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:27,714 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:27,714 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:28,485 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:28,507 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:28,508 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:28,508 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:28,508 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:29,301 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:29,302 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:29,302 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:29,303 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:29,485 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:29,486 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:30,100 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:30,101 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:30,101 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:30,102 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:30,486 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:30,912 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:30,913 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:30,914 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:30,914 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:31,487 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:31,487 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:31,720 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:31,721 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:31,721 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:31,721 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:32,487 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:32,518 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:32,534 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:32,535 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:32,535 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:32,536 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:33,359 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:33,360 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:33,360 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:33,361 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:33,488 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:33,488 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:34,167 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:34,168 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:34,168 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:34,169 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:34,489 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:34,968 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:34,969 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:34,969 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:34,970 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:35,489 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:35,489 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:35,778 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:35,778 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:35,779 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:35,779 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:36,490 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:36,586 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:36,587 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:36,587 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:36,588 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:37,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:47:37,241 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:47:37,394 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:37,395 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:37,396 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:37,396 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:37,490 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:37,490 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:38,181 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:38,197 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:38,198 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:38,199 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:38,199 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:38,490 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:39,006 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:39,006 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:39,007 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:39,007 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:39,491 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:39,492 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:39,809 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:39,810 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:39,810 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:39,811 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:40,492 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:40,606 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:40,606 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:40,607 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:40,607 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:41,404 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:41,405 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:41,406 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:41,406 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:41,492 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:41,493 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:41,846 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-21 13:47:41,848 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:47:42,210 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:42,211 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:42,212 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:42,212 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:42,493 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:43,020 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:43,021 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:43,021 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:43,022 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:43,494 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:43,494 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:43,803 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:43,819 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:43,820 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:43,820 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:43,821 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:44,495 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:44,615 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:44,616 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:44,616 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:44,617 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:45,415 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:45,416 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:45,417 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:45,417 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:45,495 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:45,496 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:46,222 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:46,230 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:46,230 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:46,231 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:46,496 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:47,020 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:47,021 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:47,021 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:47,022 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:47,497 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:47,497 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:47,818 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:47,819 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:47,820 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:47,820 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:48,497 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:48,623 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:48,624 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:48,625 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:48,625 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:49,411 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:49,427 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:49,428 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:49,428 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:49,429 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:49,498 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:49,498 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:50,232 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:50,233 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:50,233 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:50,234 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:50,498 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:51,032 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:51,033 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:51,033 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:51,034 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:51,499 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:51,499 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:51,829 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:51,829 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:51,830 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:51,830 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:52,238 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:47:52,238 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:47:52,499 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:52,633 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:52,633 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:52,634 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:52,634 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:53,435 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:53,436 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:53,436 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:53,436 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:53,500 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:53,501 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:54,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:54,240 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:54,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:54,241 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:54,501 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:55,023 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:47:55,040 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:55,041 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:55,041 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:55,041 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:55,501 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:55,502 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:55,853 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:55,854 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:55,854 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:55,854 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:56,502 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:56,670 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:56,671 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:56,671 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:56,671 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:57,502 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:57,503 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:47:57,518 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:57,519 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:57,519 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:57,520 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:58,375 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:58,376 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:58,376 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:58,377 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:58,503 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:59,231 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:47:59,232 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:47:59,232 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:47:59,233 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:47:59,503 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:47:59,504 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:00,069 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:00,084 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:00,085 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:00,085 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:00,086 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:00,504 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:00,932 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:00,932 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:00,932 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:00,935 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:01,504 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:01,504 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:01,800 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:01,800 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:01,801 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:01,801 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:02,504 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:02,665 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:02,666 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:02,667 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:02,667 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:03,504 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:03,505 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:03,523 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:03,524 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:03,524 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:03,525 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:04,379 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:04,380 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:04,380 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:04,381 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:04,505 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:05,222 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:05,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:05,240 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:05,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:05,241 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:05,505 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:05,505 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:06,103 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:06,104 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:06,104 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:06,105 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:06,505 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:06,960 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:06,960 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:06,961 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:06,961 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:07,238 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:48:07,238 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:48:07,505 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:07,506 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:07,807 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:07,808 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:07,808 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:07,809 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:08,506 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:08,656 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:08,663 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:08,663 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:08,664 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:09,485 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:09,486 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:09,486 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:09,487 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:09,506 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:09,507 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:10,275 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:10,291 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:10,292 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:10,292 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:10,292 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:10,507 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:11,112 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:11,113 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:11,114 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:11,114 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:11,507 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:11,508 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:11,849 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:48:11,943 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:11,944 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:11,944 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:11,945 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:12,508 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:12,792 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:12,793 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:12,793 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:12,794 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:13,509 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:13,509 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:13,656 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:13,657 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:13,657 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:13,657 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:14,503 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:14,503 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:14,503 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:14,504 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:14,509 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:15,335 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:15,351 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:15,352 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:15,352 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:15,353 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:15,509 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:15,509 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:16,202 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:16,203 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:16,204 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:16,204 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:16,510 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:17,059 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:17,060 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:17,061 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:17,061 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:17,511 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:17,511 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:17,909 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:17,910 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:17,910 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:17,911 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:18,511 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:18,755 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:18,755 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:18,756 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:18,756 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:19,511 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:19,512 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:19,621 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:19,658 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:19,659 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:19,659 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:20,464 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:20,480 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:20,481 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:20,481 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:20,481 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:20,512 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:21,340 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:21,340 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:21,341 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:21,341 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:21,513 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:21,513 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:22,197 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:22,198 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:22,199 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:22,199 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:22,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:48:22,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:48:22,513 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:23,082 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:23,086 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:23,086 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:23,086 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:23,514 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:23,514 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:23,911 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:23,912 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:23,912 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:23,913 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:24,514 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:24,765 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:24,766 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:24,767 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:24,769 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:25,515 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:25,515 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:25,606 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:25,622 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:25,623 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:25,623 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:25,624 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:26,483 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:26,484 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:26,484 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:26,484 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:26,515 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:27,340 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:27,341 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:27,341 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:27,342 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:27,516 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:27,516 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:28,191 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:28,193 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:28,193 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:28,194 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:28,516 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:29,047 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:29,048 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:29,048 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:29,048 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:29,517 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:29,517 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:29,902 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:29,903 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:29,903 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:29,904 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:30,517 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:30,743 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:30,759 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:30,760 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:30,760 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:30,760 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:31,518 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:31,518 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:31,615 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:31,616 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:31,616 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:31,617 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:32,474 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:32,475 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:32,476 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:32,476 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:32,518 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:33,316 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:33,317 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:33,317 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:33,318 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:33,519 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:33,519 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:34,156 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:34,157 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:34,157 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:34,158 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:34,519 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:35,003 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:35,004 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:35,004 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:35,005 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:35,520 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:35,520 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:35,829 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:35,845 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:35,846 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:35,846 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:35,847 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:36,520 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:36,690 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:36,691 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:36,692 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:36,692 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:37,238 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:48:37,239 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:48:37,520 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:37,521 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:37,538 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:37,539 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:37,539 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:37,540 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:38,354 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:38,355 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:38,355 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:38,356 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:38,521 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:39,207 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:39,207 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:39,208 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:39,208 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:39,522 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:39,522 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:40,058 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:40,058 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:40,059 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:40,059 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:40,522 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:40,883 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:40,899 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:40,900 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:40,901 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:40,901 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:41,523 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:41,523 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:41,744 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:41,745 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:41,746 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:41,746 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:41,849 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:48:42,524 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:42,594 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:42,595 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:42,595 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:42,596 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:43,447 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:43,447 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:43,447 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:43,448 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:43,524 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:43,525 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:44,299 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:44,300 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:44,300 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:44,301 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:44,525 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:45,149 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:45,149 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:45,150 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:45,150 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:45,525 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:45,526 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:45,995 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:46,010 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:46,011 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:46,011 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:46,011 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:46,526 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:46,867 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:46,868 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:46,868 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:46,868 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:47,526 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:47,527 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:47,719 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:47,720 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:47,721 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:47,721 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:48,527 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:48,560 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:48,561 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:48,561 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:48,562 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:49,400 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:49,401 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:49,401 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:49,402 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:49,529 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:49,529 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:50,243 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:50,244 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:50,244 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:50,245 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:50,529 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:51,071 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:51,087 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:51,088 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:51,088 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:51,090 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:51,530 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:51,530 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:51,928 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:51,929 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:51,929 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:51,930 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:52,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:48:52,239 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:48:52,530 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:52,772 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:52,772 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:52,773 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:52,773 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:53,531 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:53,532 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:53,632 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:53,638 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:53,638 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:53,639 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:54,480 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:54,481 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:54,481 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:54,482 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:54,531 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:55,331 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:55,332 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:55,332 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:55,332 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:55,532 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:55,533 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:56,164 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:48:56,181 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:56,181 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:56,181 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:56,182 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:56,533 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:57,025 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:57,026 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:57,026 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:57,027 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:57,534 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:57,534 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:57,877 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:57,878 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:57,878 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:57,879 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:58,534 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:58,730 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:58,730 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:58,733 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:58,734 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:48:59,535 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:48:59,536 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:48:59,593 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:48:59,593 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:48:59,593 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:48:59,594 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:00,450 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:00,451 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:00,452 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:00,452 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:00,536 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:01,292 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:01,309 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:01,310 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:01,310 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:01,310 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:01,536 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:01,537 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:02,175 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:02,175 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:02,176 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:02,176 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:02,538 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:03,040 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:03,041 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:03,041 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:03,042 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:03,538 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:03,538 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:03,894 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:03,895 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:03,895 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:03,895 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:04,538 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:04,727 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:04,734 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:04,735 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:04,735 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:05,539 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:05,539 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:05,555 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:05,555 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:05,555 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:05,556 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:06,371 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:06,386 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:06,387 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:06,387 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:06,388 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:06,539 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:07,207 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:07,208 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:07,208 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:07,209 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:07,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:49:07,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:49:07,540 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:07,541 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:08,052 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:08,054 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:08,054 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:08,055 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:08,541 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:08,837 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:08,838 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:08,838 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:08,838 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:09,541 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:09,542 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:09,652 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:09,653 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:09,653 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:09,653 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:10,453 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:10,454 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:10,454 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:10,454 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:10,542 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:11,265 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:11,267 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:11,267 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:11,267 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:11,543 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:11,544 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:11,850 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:49:11,851 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:12,092 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:12,093 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:12,094 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:12,094 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:12,544 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:12,888 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:12,889 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:12,889 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:12,890 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:13,545 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:13,545 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:13,686 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:13,687 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:13,687 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:13,687 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:14,510 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:14,511 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:14,511 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:14,511 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:14,546 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:15,320 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:15,327 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:15,327 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:15,328 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:15,546 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:15,547 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:16,131 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:16,133 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:16,133 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:16,134 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:16,547 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:16,925 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:16,942 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:16,943 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:16,943 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:16,943 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:17,548 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:17,548 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:17,742 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:17,743 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:17,744 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:17,745 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:18,543 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:18,544 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:18,544 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:18,545 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:18,548 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:19,344 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:19,345 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:19,345 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:19,345 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:19,548 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:19,549 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:20,158 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:20,159 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:20,160 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:20,160 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:20,549 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:20,971 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:20,972 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:20,972 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:20,973 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:21,549 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:21,550 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:21,784 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:21,785 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:21,785 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:21,786 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:22,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:49:22,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:49:22,387 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:22,551 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:22,597 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:22,598 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:22,599 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:22,599 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:23,434 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:23,434 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:23,435 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:23,435 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:23,551 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:23,551 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:24,237 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:24,237 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:24,238 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:24,238 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:24,551 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:25,043 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:25,044 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:25,044 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:25,044 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:25,552 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:25,552 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:25,848 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:25,849 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:25,850 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:25,850 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:26,553 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:26,656 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-21 13:49:26,657 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: pause
+2023-07-21 13:49:26,657 INFO    HandlerThread:32255 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-21 13:49:26,657 INFO    HandlerThread:32255 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-21 13:49:26,657 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-21 13:49:26,657 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined disk monitor
+2023-07-21 13:49:26,657 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-21 13:49:26,658 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-21 13:49:26,661 DEBUG   SenderThread:32255 [sender.py:send():369] send: history
+2023-07-21 13:49:26,661 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: summary_record
+2023-07-21 13:49:26,661 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:49:26,721 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-21 13:49:26,721 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined memory monitor
+2023-07-21 13:49:26,721 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined network monitor
+2023-07-21 13:49:26,721 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:49:27,553 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:49:27,553 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:49:27,722 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:32,722 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:37,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:49:37,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:49:38,290 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:43,291 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:48,291 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:52,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:49:52,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:49:53,299 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:49:58,299 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:03,300 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:07,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:50:07,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:50:08,300 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:13,301 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:18,301 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:22,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:50:22,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:50:23,305 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:28,306 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:33,306 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:37,239 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:50:37,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:50:38,352 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:43,352 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:48,355 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:52,240 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-21 13:50:52,240 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: stop_status
+2023-07-21 13:50:54,294 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:55,246 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: resume
+2023-07-21 13:50:55,246 INFO    HandlerThread:32255 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-21 13:50:55,246 INFO    HandlerThread:32255 [system_monitor.py:start():181] Starting system monitor
+2023-07-21 13:50:55,246 INFO    SystemMonitor:32255 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-21 13:50:55,247 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started cpu monitoring
+2023-07-21 13:50:55,247 DEBUG   SenderThread:32255 [sender.py:send():369] send: telemetry
+2023-07-21 13:50:55,248 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started disk monitoring
+2023-07-21 13:50:55,248 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started gpu monitoring
+2023-07-21 13:50:55,249 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started memory monitoring
+2023-07-21 13:50:55,249 DEBUG   SenderThread:32255 [sender.py:send():369] send: exit
+2023-07-21 13:50:55,249 INFO    SenderThread:32255 [sender.py:send_exit():574] handling exit code: 0
+2023-07-21 13:50:55,249 INFO    SenderThread:32255 [sender.py:send_exit():576] handling runtime: 170
+2023-07-21 13:50:55,251 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:50:55,251 INFO    SystemMonitor:32255 [interfaces.py:start():190] Started network monitoring
+2023-07-21 13:50:55,251 INFO    SenderThread:32255 [sender.py:send_exit():582] send defer
+2023-07-21 13:50:55,252 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,252 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-21 13:50:55,252 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,252 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-21 13:50:55,252 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 1
+2023-07-21 13:50:55,253 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,253 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-21 13:50:55,253 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,253 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-21 13:50:55,253 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 2
+2023-07-21 13:50:55,253 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,253 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-21 13:50:55,253 INFO    HandlerThread:32255 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-21 13:50:55,253 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-21 13:50:55,254 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-21 13:50:55,254 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-21 13:50:55,254 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined disk monitor
+2023-07-21 13:50:55,254 DEBUG   SystemMonitor:32255 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-21 13:50:55,322 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-21 13:50:55,322 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined memory monitor
+2023-07-21 13:50:55,322 INFO    HandlerThread:32255 [interfaces.py:finish():202] Joined network monitor
+2023-07-21 13:50:55,323 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,323 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-21 13:50:55,323 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 3
+2023-07-21 13:50:55,323 DEBUG   SenderThread:32255 [sender.py:send():369] send: stats
+2023-07-21 13:50:55,323 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,323 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-21 13:50:55,323 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,323 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-21 13:50:55,323 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 4
+2023-07-21 13:50:55,324 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,324 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-21 13:50:55,325 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,325 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-21 13:50:55,325 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 5
+2023-07-21 13:50:55,325 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,325 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-21 13:50:55,325 DEBUG   SenderThread:32255 [sender.py:send():369] send: summary
+2023-07-21 13:50:55,325 INFO    SenderThread:32255 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-21 13:50:55,325 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,325 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-21 13:50:55,325 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 6
+2023-07-21 13:50:55,325 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,326 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-21 13:50:55,326 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,326 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-21 13:50:55,328 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: status_report
+2023-07-21 13:50:55,463 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 7
+2023-07-21 13:50:55,463 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:55,463 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-21 13:50:55,464 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:55,464 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-21 13:50:55,577 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/config.yaml
+2023-07-21 13:50:55,577 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:50:56,249 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-21 13:50:57,331 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 8
+2023-07-21 13:50:57,331 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: poll_exit
+2023-07-21 13:50:57,331 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:57,332 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-21 13:50:57,332 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:57,332 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-21 13:50:57,332 INFO    SenderThread:32255 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-21 13:50:57,332 INFO    SenderThread:32255 [job_builder.py:build():259] run is notebook based run
+2023-07-21 13:50:57,332 INFO    SenderThread:32255 [job_builder.py:build():274] no source found
+2023-07-21 13:50:57,332 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 9
+2023-07-21 13:50:57,333 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:57,333 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-21 13:50:57,333 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:57,333 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-21 13:50:57,333 INFO    SenderThread:32255 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-21 13:50:57,578 INFO    Thread-37 :32255 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:50:57,578 INFO    SenderThread:32255 [dir_watcher.py:finish():389] scan: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files
+2023-07-21 13:50:57,578 INFO    SenderThread:32255 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log output.log
+2023-07-21 13:50:57,578 INFO    SenderThread:32255 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json wandb-summary.json
+2023-07-21 13:50:57,578 INFO    SenderThread:32255 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-metadata.json wandb-metadata.json
+2023-07-21 13:50:57,579 INFO    SenderThread:32255 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/config.yaml config.yaml
+2023-07-21 13:50:57,579 INFO    SenderThread:32255 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/conda-environment.yaml conda-environment.yaml
+2023-07-21 13:50:57,582 INFO    SenderThread:32255 [dir_watcher.py:finish():403] scan save: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/requirements.txt requirements.txt
+2023-07-21 13:50:57,582 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 10
+2023-07-21 13:50:57,589 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:57,589 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-21 13:50:57,590 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:57,590 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-21 13:50:57,590 INFO    SenderThread:32255 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-21 13:50:57,776 INFO    wandb-upload_1:32255 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/wandb-summary.json
+2023-07-21 13:50:57,845 INFO    wandb-upload_4:32255 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/requirements.txt
+2023-07-21 13:50:57,859 INFO    wandb-upload_3:32255 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/conda-environment.yaml
+2023-07-21 13:50:57,873 INFO    wandb-upload_0:32255 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/output.log
+2023-07-21 13:50:57,889 INFO    wandb-upload_2:32255 [upload_job.py:push():133] Uploaded file /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/files/config.yaml
+2023-07-21 13:50:58,090 INFO    Thread-36 (_thread_body):32255 [sender.py:transition_state():602] send defer: 11
+2023-07-21 13:50:58,091 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:58,091 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-21 13:50:58,091 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:58,091 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-21 13:50:58,091 INFO    SenderThread:32255 [file_pusher.py:join():164] waiting for file pusher
+2023-07-21 13:50:58,091 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 12
+2023-07-21 13:50:58,091 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:58,091 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-21 13:50:58,092 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:58,092 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-21 13:50:58,430 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 13
+2023-07-21 13:50:58,430 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:58,430 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-21 13:50:58,430 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:58,430 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-21 13:50:58,430 INFO    SenderThread:32255 [sender.py:transition_state():602] send defer: 14
+2023-07-21 13:50:58,430 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: defer
+2023-07-21 13:50:58,431 INFO    HandlerThread:32255 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-21 13:50:58,431 DEBUG   SenderThread:32255 [sender.py:send():369] send: final
+2023-07-21 13:50:58,431 DEBUG   SenderThread:32255 [sender.py:send():369] send: footer
+2023-07-21 13:50:58,431 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: defer
+2023-07-21 13:50:58,431 INFO    SenderThread:32255 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-21 13:50:58,431 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-21 13:50:58,432 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: server_info
+2023-07-21 13:50:58,432 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-21 13:50:58,432 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: poll_exit
+2023-07-21 13:50:58,432 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-21 13:50:58,432 DEBUG   SenderThread:32255 [sender.py:send_request():396] send_request: server_info
+2023-07-21 13:50:58,533 DEBUG   HandlerThread:32255 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-21 13:50:58,533 INFO    HandlerThread:32255 [handler.py:finish():854] shutting down handler
+2023-07-21 13:50:59,432 INFO    WriterThread:32255 [datastore.py:close():298] close: /home/robot-lab/Documents/wandb/run-20230721_134631-ze1dbsnw/run-ze1dbsnw.wandb
+2023-07-21 13:50:59,533 INFO    SenderThread:32255 [sender.py:finish():1526] shutting down sender
+2023-07-21 13:50:59,533 INFO    SenderThread:32255 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-21 13:50:59,533 INFO    SenderThread:32255 [file_pusher.py:join():164] waiting for file pusher

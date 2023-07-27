@@ -1,0 +1,20 @@
+2023-07-26 14:46:46,403 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-26 14:46:46,403 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Configure stats pid to 7975
+2023-07-26 14:46:46,403 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-26 14:46:46,403 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-26 14:46:46,403 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230726_144646-ot5scdgs/logs/debug.log
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230726_144646-ot5scdgs/logs/debug-internal.log
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_init.py:init():547] calling init triggers
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-26 14:46:46,404 INFO    MainThread:7975 [wandb_init.py:init():571] re-initializing run, found existing run on stack: 7covajsx
+2023-07-26 14:46:46,405 INFO    MainThread:7975 [wandb_run.py:_finish():1887] finishing run paul-nieuwerburgh/BVAE/7covajsx
+2023-07-26 14:46:46,459 INFO    MainThread:7975 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-26 14:46:46,459 INFO    MainThread:7975 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-26 14:46:46,459 INFO    MainThread:7975 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-26 14:46:46,459 INFO    MainThread:7975 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-26 14:46:46,459 INFO    MainThread:7975 [wandb_run.py:_restore():2104] restore
+2023-07-26 14:46:46,459 INFO    MainThread:7975 [wandb_run.py:_restore():2110] restore done

@@ -1,0 +1,1084 @@
+2023-07-24 17:12:03,371 INFO    StreamThr :91737 [internal.py:wandb_internal():86] W&B internal server running at pid: 91737, started at: 2023-07-24 17:12:03.371581
+2023-07-24 17:12:03,372 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status
+2023-07-24 17:12:03,374 INFO    WriterThread:91737 [datastore.py:open_for_write():85] open: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/run-gp4l1mj5.wandb
+2023-07-24 17:12:03,375 DEBUG   SenderThread:91737 [sender.py:send():369] send: header
+2023-07-24 17:12:03,377 DEBUG   SenderThread:91737 [sender.py:send():369] send: run
+2023-07-24 17:12:03,651 INFO    SenderThread:91737 [dir_watcher.py:__init__():211] watching files in: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files
+2023-07-24 17:12:03,652 INFO    SenderThread:91737 [sender.py:_start_run_threads():1100] run started: gp4l1mj5 with start time 1690233123.370672
+2023-07-24 17:12:03,652 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:03,652 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:03,657 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: check_version
+2023-07-24 17:12:03,657 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: check_version
+2023-07-24 17:12:03,739 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: run_start
+2023-07-24 17:12:03,745 DEBUG   HandlerThread:91737 [system_info.py:__init__():31] System info init
+2023-07-24 17:12:03,745 DEBUG   HandlerThread:91737 [system_info.py:__init__():46] System info init done
+2023-07-24 17:12:03,745 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:12:03,746 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:12:03,747 INFO    HandlerThread:91737 [system_monitor.py:probe():201] Collecting system info
+2023-07-24 17:12:03,747 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:12:03,747 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:12:03,748 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:12:03,749 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:12:03,749 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:12:03,778 DEBUG   HandlerThread:91737 [system_info.py:probe():195] Probing system
+2023-07-24 17:12:03,779 DEBUG   HandlerThread:91737 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-24 17:12:03,780 DEBUG   HandlerThread:91737 [system_info.py:probe():240] Probing system done
+2023-07-24 17:12:03,780 DEBUG   HandlerThread:91737 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-76-generic-x86_64-with-glibc2.31', 'python': '3.10.12', 'heartbeatAt': '2023-07-24T21:12:03.778460', 'startedAt': '2023-07-24T21:12:03.363585', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'lambda-dual-eureka', 'username': 'robot-lab', 'executable': '/home/robot-lab/anaconda3/envs/BVAE/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2392.77, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 4166.828, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 4166.615, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2293.037, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3800.0}], 'disk': {'total': 915.3232879638672, 'used': 867.8089866638184}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 62.715545654296875}}
+2023-07-24 17:12:03,780 INFO    HandlerThread:91737 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-24 17:12:03,780 INFO    HandlerThread:91737 [system_monitor.py:probe():214] Publishing system info
+2023-07-24 17:12:03,780 DEBUG   HandlerThread:91737 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-24 17:12:03,780 DEBUG   HandlerThread:91737 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-24 17:12:03,780 DEBUG   HandlerThread:91737 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-24 17:12:04,653 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/conda-environment.yaml
+2023-07-24 17:12:04,653 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/requirements.txt
+2023-07-24 17:12:04,654 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:09,595 DEBUG   HandlerThread:91737 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-24 17:12:09,596 INFO    HandlerThread:91737 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-24 17:12:09,597 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:09,598 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-24 17:12:09,598 DEBUG   SenderThread:91737 [sender.py:send():369] send: files
+2023-07-24 17:12:09,598 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-24 17:12:09,613 DEBUG   SenderThread:91737 [sender.py:send():369] send: telemetry
+2023-07-24 17:12:09,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:12:09,613 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:12:09,613 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:12:09,613 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:12:09,614 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:12:09,614 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:12:09,614 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:12:09,615 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:12:09,653 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/conda-environment.yaml
+2023-07-24 17:12:09,653 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-metadata.json
+2023-07-24 17:12:09,679 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:12:09,680 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:12:09,680 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:12:09,680 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:12:09,681 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:12:09,762 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:12:09,885 INFO    wandb-upload_0:91737 [upload_job.py:push():133] Uploaded file /tmp/tmpkb3doh72wandb/3fr0yvdy-wandb-metadata.json
+2023-07-24 17:12:13,763 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:16,157 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:12:16,157 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:12:16,157 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:12:16,157 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:12:16,158 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:12:16,158 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:12:16,158 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:12:16,159 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:12:16,159 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:12:17,672 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:12:17,672 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:12:17,672 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:12:17,672 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:12:17,673 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:12:17,673 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:12:17,673 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:12:17,673 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:12:17,745 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:12:17,745 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:12:17,745 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:12:17,746 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:12:19,747 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:24,611 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:12:24,612 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:12:24,925 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:29,926 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:34,931 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:35,660 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/config.yaml
+2023-07-24 17:12:37,086 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:12:37,086 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:12:37,086 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:12:37,086 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:12:37,087 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:12:37,087 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:12:37,087 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:12:37,088 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:12:37,089 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:12:37,089 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:12:37,089 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:12:37,089 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:12:37,090 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:12:37,090 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:12:37,090 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:12:37,090 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:12:37,090 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:12:37,163 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:12:37,164 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:12:37,164 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:12:37,164 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:12:39,611 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:12:39,612 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:12:40,181 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:12:40,181 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:12:40,181 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:12:40,181 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:12:40,182 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:12:40,182 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:12:40,183 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:12:40,183 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:12:40,183 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:12:40,293 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:12:40,293 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:12:40,293 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:12:40,294 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:12:40,294 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:12:40,294 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:12:40,295 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:12:40,295 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:12:40,359 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:12:40,359 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:12:40,359 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:12:40,359 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:12:40,361 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:45,360 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:45,405 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:12:45,405 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:12:45,405 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:12:45,406 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:12:45,406 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:12:45,406 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:12:45,407 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:12:45,407 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:12:45,408 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:12:46,367 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:46,368 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:46,369 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:46,371 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:46,663 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:46,664 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_created():272] file/dir created: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:47,205 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:47,205 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:47,205 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:47,206 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:47,664 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:48,048 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:48,049 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:48,049 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:48,050 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:48,665 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:48,665 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:48,884 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:48,885 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:48,885 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:48,887 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:49,665 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:49,735 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:49,736 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:49,737 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:49,737 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:50,575 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:50,578 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:50,579 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:50,579 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:50,579 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:50,666 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:50,666 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:51,436 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:51,436 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:51,437 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:51,439 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:51,666 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:52,302 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:52,303 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:52,303 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:52,303 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:52,667 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:52,667 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:53,161 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:53,162 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:53,162 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:53,162 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:53,667 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:54,016 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:54,016 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:54,016 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:54,019 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:54,612 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:12:54,613 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:12:54,668 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:54,668 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:54,866 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:54,867 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:54,867 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:54,868 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:55,668 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:55,700 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:12:55,703 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:55,707 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:55,707 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:55,708 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:56,567 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:56,568 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:56,568 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:56,569 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:56,669 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:56,669 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:57,414 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:57,415 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:57,415 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:57,415 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:57,669 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:58,264 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:58,264 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:58,264 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:58,265 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:58,670 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:12:58,670 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:59,098 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:59,098 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:59,098 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:59,099 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:12:59,670 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:12:59,954 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:12:59,955 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:12:59,955 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:12:59,955 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:00,671 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:00,671 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:00,830 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:00,833 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:00,835 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:00,835 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:00,835 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:01,671 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:01,679 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:01,680 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:01,680 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:01,681 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:02,521 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:02,522 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:02,522 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:02,522 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:02,672 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:02,672 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:03,357 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:03,358 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:03,358 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:03,359 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:03,672 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:04,186 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:04,187 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:04,187 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:04,188 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:04,672 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:04,673 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:05,028 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:05,029 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:05,029 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:05,029 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:05,673 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:05,867 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:05,870 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:05,870 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:05,870 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:05,871 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:06,673 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:06,674 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:06,710 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:06,715 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:06,716 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:06,716 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:07,553 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:07,554 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:07,554 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:07,554 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:07,674 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:08,399 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:08,400 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:08,400 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:08,400 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:08,675 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:08,675 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:09,233 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:09,234 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:09,234 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:09,234 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:09,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:13:09,613 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:13:09,675 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:10,063 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:10,064 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:10,064 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:10,065 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:10,676 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:10,676 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:10,899 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:10,901 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:10,902 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:10,902 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:10,902 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:11,676 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:11,748 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:11,749 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:11,752 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:11,753 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:12,584 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:12,584 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:12,585 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:12,585 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:12,677 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:12,677 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:13,420 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:13,421 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:13,421 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:13,422 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:13,678 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:14,251 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:14,252 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:14,252 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:14,253 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:14,678 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:14,679 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:15,097 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:15,098 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:15,098 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:15,099 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:15,679 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:15,948 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:15,950 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:15,951 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:15,951 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:15,952 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:16,679 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:16,679 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:16,802 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:16,803 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:16,803 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:16,803 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:17,638 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:17,639 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:17,639 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:17,640 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:17,680 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:18,471 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:18,476 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:18,476 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:18,477 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:18,680 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:18,681 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:19,329 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:19,330 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:19,331 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:19,331 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:19,681 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:20,183 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:20,184 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:20,185 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:20,185 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:20,681 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:20,681 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:21,037 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:21,039 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:21,040 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:21,040 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:21,040 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:21,681 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:21,897 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:21,898 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:21,898 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:21,899 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:22,682 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:22,682 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:22,736 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:22,737 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:22,737 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:22,738 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:23,590 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:23,590 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:23,591 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:23,593 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:23,682 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:24,441 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:24,441 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:24,442 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:24,442 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:24,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:13:24,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:13:24,683 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:24,683 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:25,347 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:25,349 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:25,349 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:25,350 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:25,683 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:26,145 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:26,148 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:26,148 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:26,149 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:26,149 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:26,683 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:26,683 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:26,996 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:26,996 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:26,996 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:26,997 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:27,683 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:27,844 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:27,844 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:27,845 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:27,845 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:28,684 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:28,684 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:28,693 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:28,694 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:28,694 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:28,695 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:29,525 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:29,526 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:29,526 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:29,527 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:29,684 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:30,363 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:30,363 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:30,364 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:30,364 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:30,684 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:30,684 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:31,209 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:31,212 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:31,212 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:31,212 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:31,213 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:31,684 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:32,063 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:32,064 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:32,065 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:32,065 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:32,685 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:32,685 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:32,929 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:32,929 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:32,930 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:32,930 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:33,685 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:33,785 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:33,785 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:33,785 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:33,786 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:34,640 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:34,641 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:34,641 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:34,641 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:34,685 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:34,685 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:35,487 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:35,488 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:35,488 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:35,488 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:35,685 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:36,340 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:36,342 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:36,343 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:36,343 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:36,344 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:36,686 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:36,686 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:37,211 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:37,212 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:37,212 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:37,213 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:37,686 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:38,084 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:38,085 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:38,085 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:38,085 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:38,686 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:38,686 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:38,923 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:38,924 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:38,924 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:38,927 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:39,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:13:39,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:13:39,687 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:39,741 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:39,742 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:39,742 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:39,742 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:40,574 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:40,575 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:40,575 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:40,575 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:40,687 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:40,688 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:41,370 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:41,373 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:41,377 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:41,377 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:41,378 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:41,688 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:42,198 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:42,199 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:42,200 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:42,200 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:42,688 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:42,688 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:43,056 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:43,056 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:43,056 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:43,056 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:43,688 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:43,909 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:43,910 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:43,910 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:43,911 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:44,689 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:44,689 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:44,773 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:44,773 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:44,774 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:44,774 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:45,408 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:13:45,409 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:13:45,602 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:45,603 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:45,603 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:45,604 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:45,689 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:46,455 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:46,457 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:46,458 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:46,458 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:46,459 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:46,689 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:46,689 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:47,305 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:47,305 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:47,306 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:47,306 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:47,689 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:48,133 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:48,133 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:48,133 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:48,134 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:48,690 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:48,690 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:48,988 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:48,989 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:48,989 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:48,989 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:49,690 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:49,838 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:49,838 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:49,838 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:49,839 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:50,685 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:50,685 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:50,686 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:50,686 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:50,690 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:50,690 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:51,518 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:51,521 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:51,521 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:51,522 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:51,522 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:51,690 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:52,351 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:52,355 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:52,355 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:52,356 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:52,691 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:52,691 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:53,198 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:53,198 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:53,198 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:53,199 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:53,691 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:54,059 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:54,059 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:54,059 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:54,060 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:54,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:13:54,613 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:13:54,691 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:54,691 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:54,929 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:54,929 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:54,929 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:54,930 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:55,691 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:55,790 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:55,791 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:55,791 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:55,791 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:56,600 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:13:56,603 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:56,603 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:56,603 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:56,604 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:56,692 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:56,692 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:57,456 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:57,456 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:57,456 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:57,457 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:57,692 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:58,328 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:58,328 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:58,328 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:58,329 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:58,692 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:13:58,693 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:13:59,191 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:13:59,191 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:13:59,191 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:13:59,192 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:13:59,693 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:00,065 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:00,065 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:00,066 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:00,066 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:00,693 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:00,693 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:00,965 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:00,965 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:00,965 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:00,966 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:01,693 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:01,840 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:01,843 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:01,843 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:01,844 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:01,844 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:02,693 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:02,694 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:02,714 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:02,714 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:02,715 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:02,715 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:03,565 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:03,571 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:03,571 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:03,572 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:03,694 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:04,399 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:04,400 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:04,400 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:04,401 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:04,694 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:04,695 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:05,237 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:05,237 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:05,237 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:05,238 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:05,695 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:06,076 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:06,076 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:06,077 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:06,077 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:06,695 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:06,696 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:06,922 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:06,925 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:06,925 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:06,925 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:06,926 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:07,696 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:07,766 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:07,767 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:07,767 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:07,767 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:08,611 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:08,612 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:08,612 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:08,615 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:08,696 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:08,697 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:09,465 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:09,465 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:09,466 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:09,466 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:09,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:14:09,613 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:14:09,697 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:10,313 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-24 17:14:10,314 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:14:10,314 DEBUG   SenderThread:91737 [sender.py:send():369] send: history
+2023-07-24 17:14:10,314 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:14:10,314 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: summary_record
+2023-07-24 17:14:10,314 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:14:10,314 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:14:10,315 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:14:10,315 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:14:10,315 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:14:10,316 INFO    SenderThread:91737 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-24 17:14:10,388 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:14:10,388 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:14:10,388 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:14:10,389 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:14:10,697 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:10,697 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/wandb-summary.json
+2023-07-24 17:14:12,389 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:12,698 INFO    Thread-12 :91737 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/robot-lab/Documents/wandb/run-20230724_171203-gp4l1mj5/files/output.log
+2023-07-24 17:14:17,390 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:22,390 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:24,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:14:24,613 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:14:27,687 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:32,688 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:37,689 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:39,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:14:39,613 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:14:40,505 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:14:40,505 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:14:40,505 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:14:40,505 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:14:40,506 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:14:40,506 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:14:40,506 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:14:40,507 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:14:40,507 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:14:40,612 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:14:40,612 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:14:40,612 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:14:40,612 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:14:40,612 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:14:40,613 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:14:40,613 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:14:40,614 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:14:40,692 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:14:40,692 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:14:40,692 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:14:40,693 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:14:42,693 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:47,694 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:52,694 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:14:54,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:14:54,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:14:58,664 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:03,664 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:07,343 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:15:07,343 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:15:07,344 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:15:07,344 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:15:07,344 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:15:07,344 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:15:07,345 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:15:07,345 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:15:07,346 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:15:07,347 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:15:07,347 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:15:07,347 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:15:07,348 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:15:07,348 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:15:07,348 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:15:07,348 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:15:07,348 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:15:07,421 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:15:07,421 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:15:07,421 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:15:07,422 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:15:09,423 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:09,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:15:09,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:15:10,748 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:15:10,748 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:15:10,748 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:15:10,749 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:15:10,749 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:15:10,749 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:15:10,750 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:15:10,750 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:15:10,751 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:15:10,876 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:15:10,877 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:15:10,877 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:15:10,877 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:15:10,877 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:15:10,877 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:15:10,877 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:15:10,878 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:15:10,955 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:15:10,955 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:15:10,955 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:15:10,956 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:15:14,956 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:19,957 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:24,613 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:15:24,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:15:25,679 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:28,421 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:15:28,422 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:15:28,422 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:15:28,422 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:15:28,422 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:15:28,422 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:15:28,423 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:15:28,424 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:15:28,424 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:15:28,475 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:15:28,475 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:15:28,475 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:15:28,475 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:15:28,475 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:15:28,476 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:15:28,476 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:15:28,476 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:15:28,549 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:15:28,550 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:15:28,550 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:15:28,550 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:15:31,551 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:36,552 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:37,202 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:15:37,202 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:15:37,202 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:15:37,202 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:15:37,203 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:15:37,203 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:15:37,203 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:15:37,203 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:15:37,207 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:15:37,342 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:15:37,342 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:15:37,342 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:15:37,343 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:15:37,343 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:15:37,343 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:15:37,343 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:15:37,344 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:15:37,448 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:15:37,448 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:15:37,449 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:15:37,449 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:15:39,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:15:39,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:15:41,664 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:46,076 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:15:46,076 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:15:46,076 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:15:46,076 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:15:46,076 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:15:46,077 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:15:46,077 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:15:46,077 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:15:46,078 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:15:46,163 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:15:46,163 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:15:46,163 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:15:46,163 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:15:46,164 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:15:46,164 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:15:46,164 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:15:46,164 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:15:46,238 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:15:46,238 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:15:46,238 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:15:46,238 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:15:47,239 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:47,517 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:15:47,517 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:15:47,517 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:15:47,517 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:15:47,518 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:15:47,518 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:15:47,518 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:15:47,519 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:15:47,519 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:15:47,603 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:15:47,603 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:15:47,603 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:15:47,603 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:15:47,604 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:15:47,604 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:15:47,604 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:15:47,604 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:15:47,670 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:15:47,670 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:15:47,671 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:15:47,671 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:15:52,672 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:15:54,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:15:54,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:15:57,674 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:02,675 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:03,998 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:16:03,998 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:16:03,998 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:16:03,999 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:16:03,999 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:16:03,999 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:16:03,999 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:16:04,000 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:16:04,001 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:16:04,116 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:16:04,116 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:16:04,116 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:16:04,116 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:16:04,117 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:16:04,117 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:16:04,117 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:16:04,117 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:16:04,187 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:16:04,187 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:16:04,188 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:16:04,194 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:16:07,826 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:16:07,826 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:16:07,826 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:16:07,826 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:16:07,827 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:16:07,827 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:16:07,827 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:16:07,828 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:16:07,828 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:16:07,883 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:16:07,884 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:16:07,884 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:16:07,884 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:16:07,884 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:16:07,884 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:16:07,885 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:16:07,885 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:16:07,966 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:16:07,966 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:16:07,966 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:16:07,966 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:16:07,967 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:09,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:16:09,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:16:13,662 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:14,217 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:16:14,217 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:16:14,217 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:16:14,217 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:16:14,218 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:16:14,218 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:16:14,218 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:16:14,219 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:16:14,219 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:16:14,302 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:16:14,302 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:16:14,302 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:16:14,302 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:16:14,303 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:16:14,303 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:16:14,303 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:16:14,303 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:16:14,404 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:16:14,404 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:16:14,404 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:16:14,404 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:16:19,405 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:24,406 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:24,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:16:24,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:16:29,666 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:34,667 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:39,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:16:39,615 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:16:40,660 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:45,660 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:50,661 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:16:54,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:16:54,614 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:16:55,679 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:00,680 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:04,348 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:17:04,348 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:17:04,348 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:17:04,348 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:17:04,349 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:17:04,349 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:17:04,349 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:17:04,350 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:17:04,351 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:17:04,351 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:17:04,351 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:17:04,351 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:17:04,352 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:17:04,352 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:17:04,352 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:17:04,352 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:17:04,353 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:17:04,425 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:17:04,425 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:17:04,425 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:17:04,426 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:17:06,427 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:07,259 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:17:07,259 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:17:07,259 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:17:07,260 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:17:07,260 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:17:07,260 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:17:07,261 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:17:07,261 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:17:07,262 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:17:07,373 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:17:07,373 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:17:07,373 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:17:07,373 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:17:07,374 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:17:07,374 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:17:07,374 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:17:07,374 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:17:07,443 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:17:07,443 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:17:07,443 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:17:07,444 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:17:09,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:17:09,615 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:17:11,281 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:17:11,281 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:17:11,281 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:17:11,281 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:17:11,282 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:17:11,282 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:17:11,283 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:17:11,283 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:17:11,284 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:17:11,332 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:17:11,332 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:17:11,332 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:17:11,333 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:17:11,333 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:17:11,333 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:17:11,333 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:17:11,334 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:17:11,403 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:17:11,403 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:17:11,403 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:17:11,404 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:17:12,405 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:16,723 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: resume
+2023-07-24 17:17:16,724 INFO    HandlerThread:91737 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-24 17:17:16,724 INFO    HandlerThread:91737 [system_monitor.py:start():181] Starting system monitor
+2023-07-24 17:17:16,724 INFO    SystemMonitor:91737 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-24 17:17:16,724 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started cpu monitoring
+2023-07-24 17:17:16,724 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started disk monitoring
+2023-07-24 17:17:16,725 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started gpu monitoring
+2023-07-24 17:17:16,726 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started memory monitoring
+2023-07-24 17:17:16,726 INFO    SystemMonitor:91737 [interfaces.py:start():190] Started network monitoring
+2023-07-24 17:17:16,810 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: pause
+2023-07-24 17:17:16,810 INFO    HandlerThread:91737 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-24 17:17:16,810 INFO    HandlerThread:91737 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-24 17:17:16,811 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-24 17:17:16,811 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-24 17:17:16,811 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined disk monitor
+2023-07-24 17:17:16,811 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-24 17:17:16,811 DEBUG   SystemMonitor:91737 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-24 17:17:16,877 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-24 17:17:16,877 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined memory monitor
+2023-07-24 17:17:16,877 INFO    HandlerThread:91737 [interfaces.py:finish():202] Joined network monitor
+2023-07-24 17:17:16,878 DEBUG   SenderThread:91737 [sender.py:send():369] send: stats
+2023-07-24 17:17:17,879 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:22,879 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:24,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:17:24,615 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:17:28,656 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:33,657 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:38,658 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:39,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:17:39,615 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:17:43,721 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:48,721 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:53,722 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:17:54,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:17:54,615 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:17:59,659 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:18:04,659 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report
+2023-07-24 17:18:09,614 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-24 17:18:09,615 DEBUG   SenderThread:91737 [sender.py:send_request():396] send_request: stop_status
+2023-07-24 17:18:10,660 DEBUG   HandlerThread:91737 [handler.py:handle_request():144] handle_request: status_report

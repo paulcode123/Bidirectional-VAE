@@ -1,0 +1,1 @@
+{"Total Loss": 0.34075117111206055, "Image Reconstruction Loss": 0.34075117111206055, "Image KL Loss": 23406268.0, "Image Supervised Loss": 71074.9375, "_timestamp": 1689794399.6396997, "_runtime": 186.08332562446594, "_step": 199, "_wandb": {"runtime": 153}}

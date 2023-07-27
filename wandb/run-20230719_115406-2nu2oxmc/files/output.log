@@ -1,0 +1,956 @@
+torch.Size([101, 7])
+tensor(False, device='cuda:0')
+tensor(False, device='cuda:0')
+epoch: 1 loss: tensor(15.4844, device='cuda:0', grad_fn=<AddBackward0>) tensor(97117.0078, device='cuda:0', grad_fn=<AddBackward0>) tensor(12.1299, device='cuda:0', grad_fn=<MulBackward0>) tensor(0.4413, device='cuda:0', grad_fn=<MulBackward0>) tensor(1.1986, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(1.0375, device='cuda:0', grad_fn=<MulBackward0>) tensor(97111.4219, device='cuda:0', grad_fn=<MulBackward0>) tensor(1.1848, device='cuda:0', grad_fn=<MseLossBackward0>) 1.0371848269130624 2.3173534202669543
+torch.Size([101, 7])
+tensor(False, device='cuda:0')
+tensor(False, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(inf, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(inf, device='cuda:0', grad_fn=<MulBackward0>) tensor(inf, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(8.0195e+13, device='cuda:0', grad_fn=<MulBackward0>) tensor(inf, device='cuda:0', grad_fn=<MulBackward0>) tensor(2502.5020, device='cuda:0', grad_fn=<MseLossBackward0>) 8.75041834547119 11.824351986433612
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 1 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 2 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 3 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 4 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 5 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 6 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 7 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 8 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 9 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 10 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 11 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 12 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 13 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([94, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 14 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan
+torch.Size([101, 7])
+tensor(True, device='cuda:0')
+tensor(True, device='cuda:0')
+epoch: 15 loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<AddBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MulBackward0>) tensor(nan, device='cuda:0', grad_fn=<MseLossBackward0>) nan nan

@@ -1,0 +1,48 @@
+
+epoch: 1 loss: tensor(0.8429, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 2 loss: tensor(0.7986, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 3 loss: tensor(0.7819, device='cuda:0', grad_fn=<AddBackward0>)
+
+epoch: 4 loss: tensor(0.8339, device='cuda:0', grad_fn=<AddBackward0>)
+
+epoch: 5 loss: tensor(0.8427, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 1 loss: 0.8148267865180969
+epoch: 2 loss: 0.814073920249939
+epoch: 3 loss: 0.8561920523643494
+epoch: 4 loss: 0.8390998840332031
+epoch: 5 loss: 0.8262298107147217
+epoch: 1 loss: 0.8040039539337158
+epoch: 2 loss: 0.8224568367004395
+epoch: 3 loss: 0.7680150866508484
+epoch: 4 loss: 0.8091902732849121
+epoch: 5 loss: 0.8709595203399658
+epoch: 1 loss: 0.90389484167099
+epoch: 2 loss: 0.9509759545326233
+epoch: 3 loss: 0.9460253119468689
+epoch: 4 loss: 0.9217305779457092
+epoch: 5 loss: 0.9309293627738953
+epoch: 6 loss: 1.0355474948883057
+epoch: 7 loss: 0.9319610595703125
+epoch: 8 loss: 1.0349116325378418
+epoch: 9 loss: 1.0802934169769287
+epoch: 10 loss: 1.1015832424163818
+epoch: 11 loss: 1.0340991020202637
+epoch: 12 loss: 1.0392577648162842
+epoch: 13 loss: 1.1287322044372559
+epoch: 14 loss: 1.1389936208724976
+epoch: 15 loss: 1.0823264122009277
+epoch: 16 loss: 1.0844039916992188
+epoch: 17 loss: 1.091750144958496
+epoch: 18 loss: 1.081013798713684
+epoch: 19 loss: 1.1150617599487305
+epoch: 20 loss: 1.0253127813339233
+epoch: 21 loss: 1.050230860710144
+epoch: 22 loss: 1.129643440246582
+epoch: 23 loss: 1.0930379629135132
+epoch: 24 loss: 1.1117222309112549
+epoch: 25 loss: 1.010332465171814
+epoch: 26 loss: 1.0997915267944336
+epoch: 27 loss: 1.0372239351272583
+epoch: 28 loss: 1.044740080833435
+epoch: 29 loss: 1.0968811511993408
+epoch: 30 loss: 1.11512291431427

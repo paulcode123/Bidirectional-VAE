@@ -1,0 +1,1 @@
+{"Total Loss": 0.9813110828399658, "Image Reconstruction Loss": 1.046533465385437, "Image KL Loss": 3143.70556640625, "Image Supervised Loss": 0.9162430167198181, "Action Reconstruction Loss": 0.9162430167198181, "Action KL Loss": NaN, "Action Supervised Loss": 1.04622483253479, "_timestamp": 1690469254.00199, "_runtime": 3957.0920701026917, "_step": 1492}

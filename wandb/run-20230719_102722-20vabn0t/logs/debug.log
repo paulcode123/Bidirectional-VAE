@@ -1,0 +1,107 @@
+2023-07-19 10:27:22,702 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-19 10:27:22,702 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Configure stats pid to 2568
+2023-07-19 10:27:22,702 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-19 10:27:22,702 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230719_102722-20vabn0t/logs/debug.log
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230719_102722-20vabn0t/logs/debug-internal.log
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc393732110>
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_init.py:init():547] calling init triggers
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-19 10:27:22,703 INFO    MainThread:2568 [wandb_init.py:init():596] starting backend
+2023-07-19 10:27:22,704 INFO    MainThread:2568 [wandb_init.py:init():600] setting up manager
+2023-07-19 10:27:22,705 INFO    MainThread:2568 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-19 10:27:22,705 INFO    MainThread:2568 [wandb_init.py:init():606] backend started and connected
+2023-07-19 10:27:22,709 INFO    MainThread:2568 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-19 10:27:22,709 INFO    MainThread:2568 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-19 10:27:22,709 INFO    MainThread:2568 [wandb_init.py:init():705] updated telemetry
+2023-07-19 10:27:22,710 INFO    MainThread:2568 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-19 10:27:26,497 WARNING MainThread:2568 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 741, in init
+    result = run_init_handle.wait(
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2023-07-19 10:28:44,736 WARNING MsgRouterThr:2568 [router.py:message_loop():77] message_loop has been closed
+2023-07-19 10:28:44,736 WARNING MsgRouterThr:2568 [router.py:message_loop():77] message_loop has been closed
+2023-07-19 10:28:44,736 WARNING MsgRouterThr:2568 [router.py:message_loop():77] message_loop has been closed
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Configure stats pid to 2568
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230719_115105-bbpzbpuy/logs/debug.log
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230719_115105-bbpzbpuy/logs/debug-internal.log
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_init.py:init():547] calling init triggers
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_init.py:init():596] starting backend
+2023-07-19 11:51:05,377 INFO    MainThread:2568 [wandb_init.py:init():600] setting up manager
+2023-07-19 11:51:07,387 ERROR   MainThread:2568 [wandb_init.py:init():1182] error
+Traceback (most recent call last):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 208, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2023-07-19 11:51:48,975 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Configure stats pid to 2568
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/.config/wandb/settings
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from /home/robot-lab/Documents/wandb/settings
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_init.py:_log_setup():507] Logging user logs to /home/robot-lab/Documents/wandb/run-20230719_115148-d6qqf00n/logs/debug.log
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_init.py:_log_setup():508] Logging internal logs to /home/robot-lab/Documents/wandb/run-20230719_115148-d6qqf00n/logs/debug-internal.log
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_init.py:init():547] calling init triggers
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_init.py:init():596] starting backend
+2023-07-19 11:51:48,976 INFO    MainThread:2568 [wandb_init.py:init():600] setting up manager
+2023-07-19 11:51:50,982 ERROR   MainThread:2568 [wandb_init.py:init():1182] error
+Traceback (most recent call last):
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 208, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/robot-lab/anaconda3/envs/BVAE/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

@@ -1,0 +1,24 @@
+
+epoch: 1 loss: tensor(0.8560, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 2 loss: tensor(0.8366, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 3 loss: tensor(0.8290, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 4 loss: tensor(0.8322, device='cuda:0', grad_fn=<AddBackward0>)
+
+epoch: 5 loss: tensor(0.8670, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 6 loss: tensor(0.7992, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 7 loss: tensor(0.8524, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 8 loss: tensor(0.7807, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 9 loss: tensor(0.7859, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 10 loss: tensor(0.8149, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 11 loss: tensor(0.7707, device='cuda:0', grad_fn=<AddBackward0>)
+
+epoch: 12 loss: tensor(0.8097, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 13 loss: tensor(0.8271, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 14 loss: tensor(0.8358, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 15 loss: tensor(0.8254, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 16 loss: tensor(0.7362, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 17 loss: tensor(0.7907, device='cuda:0', grad_fn=<AddBackward0>)
+epoch: 18 loss: tensor(0.8238, device='cuda:0', grad_fn=<AddBackward0>)
+torch.Size([1, 7])
+(256, 256, 3)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
